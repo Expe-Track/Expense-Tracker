@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+   .container {
+     padding: 0 1rem;
+   }
+ 
+   header {
+     height: auto;
+   }
+ 
+   .logo {
+     width: 5rem;
+     height: auto;
+   }
+ 
+   nav {
+     display: none;
+   }
+ 
+   .mobile-menu {
+     display: block;
+   }
+ }
+ 
+ @media (min-width: 769px) and (max-width: 1024px) {
+   .container {
+     padding: 0 2rem;
+   }
+ 
+   .logo {
+     width: 6rem;
+     height: auto;
+   }
+ }
+ 
+ @media (min-width: 1025px) {
+   .container {
+     padding: 0 4rem;
+   }
+ 
+   .logo {
+     width: 8rem;
+     height: auto;
+   }
+ }
+ 
